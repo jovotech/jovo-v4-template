@@ -1,17 +1,58 @@
-import { App } from 'jovo-framework';
-import { config } from './jovo.config';
+// @ts-nocheck
+import { App } from '@jovotech/framework';
 
 import { MainComponent } from './components/MainComponent/MainComponent';
 
-const app: App = new App(config);
+/*
+|--------------------------------------------------------------------------
+| APP CONFIGURATION
+|--------------------------------------------------------------------------
+|
+| All relevant components, plugins, and configurations for your Jovo app
+| Learn more here: www.jovo.tech/docs/app-config
+|
+*/
+const app = new App({
+  /*
+  |--------------------------------------------------------------------------
+  | Components
+  |--------------------------------------------------------------------------
+  |
+  | Components contain the Jovo app logic
+  | Learn more here: www.jovo.tech/docs/components
+  |
+  */
+  components: [
+    MainComponent
+  ],
 
-// ------------------------------------------------------------------
-// ROUTING
-// ------------------------------------------------------------------
+  /*
+  |--------------------------------------------------------------------------
+  | Plugins
+  |--------------------------------------------------------------------------
+  |
+  | Includes platforms, database integrations, third-party plugins, and more
+  | Learn more here: www.jovo.tech/docs/plugins, www.jovo.tech/marketplace
+  |
+  */
+  plugins: [
+		// Add Jovo plugins here.
+	],
 
-app.useComponents({
-	// Responsible for all general interactions like Launch, Help, etc.
-	MainComponent,
+  /*
+  |--------------------------------------------------------------------------
+  | Other options
+  |--------------------------------------------------------------------------
+  |
+  | Includes all other configuration options like logging
+  | Learn more here: www.jovo.tech/docs/app-config
+  |
+  */
+  logging: true,
+
+  intentMap: {
+    'AMAZON.StopIntent': 'END',
+  },
 });
 
 export { app };
