@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { App } from '@jovotech/framework';
 
 import { MainComponent } from './components/MainComponent/MainComponent';

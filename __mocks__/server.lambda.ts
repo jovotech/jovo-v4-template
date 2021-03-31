@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { app } from './app';
 
 /*

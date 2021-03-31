@@ -1,4 +1,4 @@
-import { Jovo, Output, BaseOutput } from 'jovo-framework';
+import { Jovo, Output, BaseOutput } from '@jovotech/framework';
 
 @Output()
 export class WelcomeOutput extends BaseOutput {

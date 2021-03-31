@@ -6,7 +6,6 @@
 	"types": "./dist/src/index.d.ts",
 	"dependencies": {
 		"jovo-db-filedb": "^3.5.0",
-		"jovo-platform-alexa": "^3.5.1",
 		"jovo-framework": "^3.5.0",
 		"jovo-plugin-debugger": "^3.5.0"
 	},
@@ -26,8 +25,7 @@
 		"jest": "^26.0.1",
 		"prettier": "^2.2.1",
 		"ts-jest": "^26.5.1",
-		"typescript": "^3.9.2",
-		"jovo-cli-core": "^3.2.1"
+		"typescript": "^3.9.2"
 	},
 	"scripts": {
 		"test": "jest",

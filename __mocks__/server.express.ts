@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { Webhook } from '@jovotech/server-express';
 import { app } from './app';
 

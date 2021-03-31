@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { app } from './app';
 import { FileDb } from '@jovotech/db-filedb';
 

@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { app } from './app';
 
 /*
@@ -10,6 +9,8 @@ import { app } from './app';
 | Learn more here: www.jovo.tech/docs/staging
 |
 */
-app.use(
-	// Add Jovo plugins here.
-);
+app.use({
+	plugins: [
+		// Add Jovo plugins here.
+	],
+});

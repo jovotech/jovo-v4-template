@@ -1,4 +1,4 @@
-import { Component, Handle } from 'jovo-framework';
+import { Component, Handle } from '@jovotech/framework';
 import { WelcomeOutput } from './output/WelcomeOutput';
 
 @Component()

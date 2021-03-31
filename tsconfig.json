@@ -21,6 +21,7 @@
     "./test/**/*"
   ],
   "exclude": [
+    "./__mocks__/**/*",
     "./dist/**/*",
     "./node_modules/**/*"
   ]
