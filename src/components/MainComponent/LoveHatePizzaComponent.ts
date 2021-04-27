@@ -28,9 +28,6 @@ export class LoveHatePizzaComponent extends BaseComponent {
     return this.$send(LovesPizzaOutput);
   }
 
-  @Handle({
-    intents: ['NoIntent']
-  })
   HatesPizza() {
     return this.$send(HatesPizzaOutput);
   }
