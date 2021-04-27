@@ -1,5 +1,5 @@
-import { Component, Handle } from '@jovotech/framework';
-import { WelcomeOutput } from './output/WelcomeOutput';
+import { Component, Handle, BaseComponent } from '@jovotech/framework';
+import { LoveHatePizzaComponent } from './LoveHatePizzaComponent';
 
 @Component()
 export class MainComponent extends BaseComponent {
@@ -8,7 +8,6 @@ export class MainComponent extends BaseComponent {
     global: true
   })
   LAUNCH() {
-    return this.$send(WelcomeOutput);
+    return this.$redirect(LoveHatePizzaComponent);
   }
-
 }

@@ -16,6 +16,6 @@ app.use({
       pathToFile: './../../db/db.json',
     }),
   ],
-});
+ });
 
 export * from './server.express';

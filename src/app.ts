@@ -1,6 +1,8 @@
 import { App } from '@jovotech/framework';
 
 import { MainComponent } from './components/MainComponent/MainComponent';
+import { LoveHatePizzaComponent } from './components/MainComponent/LoveHatePizzaComponent';
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +14,7 @@ import { MainComponent } from './components/MainComponent/MainComponent';
 |
 */
 const app = new App({
+
   /*
   |--------------------------------------------------------------------------
   | Components
@@ -21,8 +24,10 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/components
   |
   */
+
   components: [
-    MainComponent
+    MainComponent,
+    LoveHatePizzaComponent
   ],
 
   /*
@@ -34,9 +39,10 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/plugins, www.jovo.tech/marketplace
   |
   */
+
   plugins: [
 		// Add Jovo plugins here.
-	],
+  ],
 
   /*
   |--------------------------------------------------------------------------
@@ -47,11 +53,13 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/app-config
   |
   */
+
   logging: true,
 
   intentMap: {
     'AMAZON.StopIntent': 'END',
   },
+
 });
 
 export { app };
