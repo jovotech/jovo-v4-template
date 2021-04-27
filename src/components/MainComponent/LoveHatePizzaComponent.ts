@@ -24,9 +24,6 @@ export class LoveHatePizzaComponent extends BaseComponent {
     });
   }
 
-  @Handle({
-    intents: ['YesIntent']
-  })
   LovesPizza() {
     return this.$send(LovesPizzaOutput);
   }
