@@ -14,12 +14,12 @@
 		"eslint": "eslint src test --fix --ext .ts"
 	},
 	"dependencies": {
-		"@jovotech/cli-core": "^4.0.0-alpha.0",
-		"@jovotech/db-filedb": "^4.0.0-alpha.0",
-		"@jovotech/framework": "^4.0.0-alpha.0",
-		"@jovotech/platform-alexa-tmp": "^4.0.0-alpha.0",
-		"@jovotech/plugin-debugger": "^4.0.0-alpha.0",
-		"@jovotech/server-express": "^4.0.0-alpha.0"
+		"@jovotech/cli-core": "^4.0.0-alpha.1",
+		"@jovotech/db-filedb": "^4.0.0-alpha.2",
+		"@jovotech/framework": "^4.0.0-alpha.2",
+		"@jovotech/platform-alexa-tmp": "^4.0.0-alpha.2",
+		"@jovotech/plugin-debugger": "^4.0.0-alpha.2",
+		"@jovotech/server-express": "^4.0.0-alpha.2"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.11",
