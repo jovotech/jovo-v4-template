@@ -10,7 +10,7 @@ import { FileDb } from '@jovotech/db-filedb';
 | Learn more here: www.jovo.tech/docs/staging
 |
 */
-app.use({
+app.configure({
   plugins: [
     new FileDb({
       pathToFile: './../../db/db.json',
