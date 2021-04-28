@@ -11,7 +11,7 @@ import { HatesPizzaOutput } from './output/HatesPizzaOutput';
 export class LoveHatePizzaComponent extends BaseComponent {
 	START() {
 		return this.$delegate(YesNoComponent, {
-			resolveTo: {
+			resolve: {
 				yes: this.LovesPizza,
 				no: this.HatesPizza,
 				fail: this.LovesPizza,
