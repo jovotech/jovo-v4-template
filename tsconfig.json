@@ -5,6 +5,7 @@
     ],
     "module": "commonjs",
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "removeComments": false,
     "allowUnreachableCode": true,
     "resolveJsonModule": true,
