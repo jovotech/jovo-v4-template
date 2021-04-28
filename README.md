@@ -34,7 +34,7 @@ $ cd <directory>
 $ npm install
 
 # Run voice app, optionally with a --watch flag to restart on code changes.
-$ jovo run [-w]
+$ jovov4 run [-w]
 ```
 
 You can now open the Jovo Debugger. Please note that the v4 Debugger can be reached using `webhookv4.jovo.cloud` instead of `webhook.jovo.cloud`.
