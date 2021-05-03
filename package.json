@@ -14,7 +14,7 @@
 		"eslint": "eslint src test --fix --ext .ts"
 	},
 	"dependencies": {
-		"@jovotech/cli-core": "^4.0.0-alpha.5",
+		"@jovotech/cli-core": "^4.0.0-alpha.6",
 		"@jovotech/db-filedb": "^4.0.0-alpha.5",
 		"@jovotech/framework": "^4.0.0-alpha.5",
 		"@jovotech/plugin-debugger": "^4.0.0-alpha.5",
