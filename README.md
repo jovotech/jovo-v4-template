@@ -30,8 +30,8 @@ Change your working directory into your newly created project directory and run 
 # Change working directory to your previously specified directory
 $ cd <directory>
 
-# Run voice app, optionally with a --watch flag to restart on code changes.
-$ jovov4 run [-w]
+# Run local development server
+$ jovov4 run
 ```
 
 You can now open the Jovo Debugger with the `.` key. Note: The v4 Debugger can be reached using `webhookv4.jovo.cloud` instead of `webhook.jovo.cloud`.
