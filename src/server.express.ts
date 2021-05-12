@@ -1,4 +1,4 @@
-import { Webhook } from '@jovotech/server-express';
+import { ExpressJs, Request, Response, Webhook } from '@jovotech/server-express';
 import { app } from './app';
 
 /*
@@ -10,20 +10,17 @@ import { app } from './app';
 | Learn more here: www.jovo.tech/docs/server/express
 |
 */
-
 const port = process.env.JOVO_PORT || 3000;
-
 (async () => {
   await app.initialize();
-
   Webhook.listen(port, () => {
     console.info(`Local server listening on port ${port}.`);
   });
-
-  Webhook.post('/webhook', async (req: Express.Request, res: any) => {
-    const response = await app.handle((req as any).body);
-    console.log(response)
+  Webhook.get('/webhook', async (req: Request, res: Response) => {
+    const response = await app.handle(new ExpressJs(req, res));
     res.json(response);
-
+  });
+  Webhook.post('/webhook', async (req: Request, res: Response) => {
+    await app.handle(new ExpressJs(req, res));
   });
 })();
