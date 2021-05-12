@@ -1,4 +1,4 @@
-import { Jovo, BaseOutput } from '@jovotech/framework';
+import { BaseOutput } from '@jovotech/framework';
 
 export class LovesPizzaOutput extends BaseOutput {
 	/*
@@ -14,9 +14,5 @@ export class LovesPizzaOutput extends BaseOutput {
 		return {
 			message: 'Yes! I love pizza, too.',
 		};
-	}
-
-	constructor(jovo: Jovo) {
-		super(jovo);
 	}
 }

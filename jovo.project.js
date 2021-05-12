@@ -10,10 +10,10 @@ const { ProjectConfig } = require('@jovotech/cli-core');
 |
 */
 const project = new ProjectConfig({
-  endpoint: '${JOVO_WEBHOOK_URL}',
-  plugins: [
+	endpoint: '${JOVO_WEBHOOK_URL}',
+	plugins: [
 		// Add Jovo CLI plugins here.
-	]
+	],
 });
 
 module.exports = project;
