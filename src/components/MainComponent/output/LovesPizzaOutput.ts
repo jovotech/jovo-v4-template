@@ -1,4 +1,5 @@
 import { BaseOutput } from '@jovotech/framework';
+import { OutputTemplate } from '@jovotech/output';
 
 export class LovesPizzaOutput extends BaseOutput {
 	/*
@@ -10,7 +11,7 @@ export class LovesPizzaOutput extends BaseOutput {
     | Learn more here: www.jovo.tech/docs/output
     |
     */
-	build() {
+	build(): OutputTemplate | OutputTemplate[] {
 		return {
 			message: 'Yes! I love pizza, too.',
 		};
