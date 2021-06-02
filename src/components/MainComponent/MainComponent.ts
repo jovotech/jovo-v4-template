@@ -3,9 +3,8 @@ import { LoveHatePizzaComponent } from './LoveHatePizzaComponent';
 
 @Component()
 export class MainComponent extends BaseComponent {
-
   @Handle({
-    global: true
+    global: true,
   })
   LAUNCH() {
     return this.$redirect(LoveHatePizzaComponent);

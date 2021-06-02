@@ -6,31 +6,31 @@ import { LovesPizzaOutput } from './output/LovesPizzaOutput';
 import { HatesPizzaOutput } from './output/HatesPizzaOutput';
 
 @Component({
-	components: [YesNoComponent],
+  components: [YesNoComponent],
 })
 export class LoveHatePizzaComponent extends BaseComponent {
-	START() {
-		return this.$delegate(YesNoComponent, {
-			resolve: {
-				yes: this.LovesPizza,
-				no: this.HatesPizza,
-				fail: this.LovesPizza,
-			},
-			config: {
-				output: AskForPizzaLoveOutput,
-			},
-		});
-	}
+  START() {
+    return this.$delegate(YesNoComponent, {
+      resolve: {
+        yes: this.LovesPizza,
+        no: this.HatesPizza,
+        fail: this.LovesPizza,
+      },
+      config: {
+        output: AskForPizzaLoveOutput,
+      },
+    });
+  }
 
-	LovesPizza() {
-		return this.$send(LovesPizzaOutput);
-	}
+  LovesPizza() {
+    return this.$send(LovesPizzaOutput);
+  }
 
-	HatesPizza() {
-		return this.$send(HatesPizzaOutput);
-	}
+  HatesPizza() {
+    return this.$send(HatesPizzaOutput);
+  }
 
-	UNHANDLED() {
-		return this.START();
-	}
+  UNHANDLED() {
+    return this.START();
+  }
 }

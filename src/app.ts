@@ -3,7 +3,6 @@ import { App } from '@jovotech/framework';
 import { MainComponent } from './components/MainComponent/MainComponent';
 import { LoveHatePizzaComponent } from './components/MainComponent/LoveHatePizzaComponent';
 
-
 /*
 |--------------------------------------------------------------------------
 | APP CONFIGURATION
@@ -14,7 +13,6 @@ import { LoveHatePizzaComponent } from './components/MainComponent/LoveHatePizza
 |
 */
 const app = new App({
-
   /*
   |--------------------------------------------------------------------------
   | Components
@@ -25,10 +23,7 @@ const app = new App({
   |
   */
 
-  components: [
-    MainComponent,
-    LoveHatePizzaComponent
-  ],
+  components: [MainComponent, LoveHatePizzaComponent],
 
   /*
   |--------------------------------------------------------------------------
@@ -41,7 +36,7 @@ const app = new App({
   */
 
   plugins: [
-		// Add Jovo plugins here.
+    // Add Jovo plugins here.
   ],
 
   /*
@@ -59,7 +54,6 @@ const app = new App({
   intentMap: {
     'AMAZON.StopIntent': 'END',
   },
-
 });
 
 export { app };
