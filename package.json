@@ -12,11 +12,11 @@
 		"eslint": "eslint src test --fix --ext .ts"
 	},
 	"dependencies": {
-		"@jovotech/cli-core": "^4.0.0-alpha.6",
-		"@jovotech/db-filedb": "^4.0.0-alpha.5",
-		"@jovotech/framework": "^4.0.0-alpha.5",
-		"@jovotech/plugin-debugger": "^4.0.0-alpha.5",
-		"@jovotech/server-express": "^4.0.0-alpha.5",
+		"@jovotech/cli-core": "^4.0.0-beta.1",
+		"@jovotech/db-filedb": "^4.0.0-alpha.17",
+		"@jovotech/framework": "^4.0.0-alpha.17",
+		"@jovotech/plugin-debugger": "^4.0.0-alpha.18",
+		"@jovotech/server-express": "^4.0.0-alpha.17",
 		"source-map-support": "^0.5.19"
 	},
 	"devDependencies": {
