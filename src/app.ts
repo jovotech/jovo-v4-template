@@ -51,9 +51,11 @@ const app = new App({
 
   logging: true,
 
-  intentMap: {
-    'AMAZON.StopIntent': 'END',
-  },
+  routing: {
+    intentMap: {
+      'AMAZON.StopIntent': 'END',
+    },
+  }
 });
 
 export { app };
