@@ -36,7 +36,7 @@ const app = new App({
   */
 
   plugins: [
-    // Add Jovo plugins here.
+    // Add Jovo plugins here
   ],
 
   /*
