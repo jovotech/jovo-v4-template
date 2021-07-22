@@ -1,6 +1,6 @@
 # Jovo v4 Template
 
-A sample voice app for the Jovo `v4` alpha version. Please note that this release is still very experimental.
+A sample voice app for the Jovo `v4` alpha version. Please note that this release is still very experimental. [You can find the documentation here](https://github.com/jovotech/jovo-framework/tree/v4dev/docs).
 
 This is the default template for the `jovov4 new` command.
 
