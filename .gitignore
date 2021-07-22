@@ -5,3 +5,4 @@ bundle.zip
 .env
 dist/
 build/
+package-lock.json

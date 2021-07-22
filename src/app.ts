@@ -1,7 +1,7 @@
 import { App } from '@jovotech/framework';
 
-import { MainComponent } from './components/MainComponent/MainComponent';
-import { LoveHatePizzaComponent } from './components/MainComponent/LoveHatePizzaComponent';
+import { GlobalComponent } from './components/GlobalComponent';
+import { LoveHatePizzaComponent } from './components/LoveHatePizzaComponent';
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +23,7 @@ const app = new App({
   |
   */
 
-  components: [MainComponent, LoveHatePizzaComponent],
+  components: [GlobalComponent, LoveHatePizzaComponent],
 
   /*
   |--------------------------------------------------------------------------
@@ -51,9 +51,11 @@ const app = new App({
 
   logging: true,
 
-  intentMap: {
-    'AMAZON.StopIntent': 'END',
-  },
+  routing: {
+    intentMap: {
+      'AMAZON.StopIntent': 'END',
+    },
+  }
 });
 
 export { app };
