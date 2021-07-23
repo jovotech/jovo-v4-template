@@ -14,7 +14,7 @@ import { JovoDebugger } from '@jovotech/plugin-debugger';
 app.configure({
   plugins: [
     new FileDb({
-      pathToFile: './../../db/db.json',
+      pathToFile: '../db/db.json',
     }),
     new JovoDebugger(),
   ],

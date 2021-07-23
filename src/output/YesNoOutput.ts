@@ -2,7 +2,7 @@ import { BaseOutput, Output } from '@jovotech/framework';
 import { OutputTemplate } from '@jovotech/output';
 
 @Output()
-export class LovesPizzaOutput extends BaseOutput {
+export class YesNoOutput extends BaseOutput {
   /*
     |--------------------------------------------------------------------------
     | Output Template
@@ -14,7 +14,8 @@ export class LovesPizzaOutput extends BaseOutput {
     */
   build(): OutputTemplate | OutputTemplate[] {
     return {
-      message: 'Yes! I love pizza, too.',
+      quickReplies: [ 'yes', 'no' ],
+      listen: true,
     };
   }
 }
