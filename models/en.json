@@ -1,5 +1,6 @@
 {
   "invocation": "my test app",
+  "version": "4.0",
   "intents": {
     "YesIntent": {
       "phrases": [
