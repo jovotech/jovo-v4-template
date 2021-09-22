@@ -9,7 +9,9 @@ test('should ask the user if they like pizza', async () => {
 
   expect(output).toEqual([
     {
-      message: 'Hello World! Do you like pizza?',
+      message: 'Do you like Pizza?',
+      listen: true,
+      quickReplies: ['yes', 'no'],
     },
   ]);
 });
