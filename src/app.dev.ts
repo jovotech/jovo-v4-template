@@ -14,9 +14,10 @@ import { JovoDebugger } from '@jovotech/plugin-debugger';
 app.configure({
   plugins: [
     new FileDb({
+      skipTests: true,
       pathToFile: '../db/db.json',
     }),
-    new JovoDebugger(),
+    new JovoDebugger({ skipTests: true }),
   ],
 });
 
