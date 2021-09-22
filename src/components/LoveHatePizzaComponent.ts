@@ -10,12 +10,12 @@ export class LoveHatePizzaComponent extends BaseComponent {
 
   @Intents(['YesIntent'])
   lovesPizza() {
-    return this.$send({ message: 'Yes! I love pizza, too.' });
+    return this.$send({ message: 'Yes! I love pizza, too.', listen: false });
   }
 
   @Intents(['NoIntent'])
   hatesPizza() {
-    return this.$send({ message: `That's OK! Not everyone likes pizza.` });
+    return this.$send({ message: `That's OK! Not everyone likes pizza.`, listen: false });
   }
 
   UNHANDLED() {

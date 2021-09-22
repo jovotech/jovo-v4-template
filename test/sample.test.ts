@@ -1,5 +1,15 @@
 import { TestSuite, InputType } from '@jovotech/framework';
 
+/*
+|--------------------------------------------------------------------------
+| UNIT TESTING
+|--------------------------------------------------------------------------
+|
+| Run `npm test` to execute this sample test.
+| Learn more here: v4.jovo.tech/docs/unit-testing
+|
+*/
+
 test('should ask the user if they like pizza', async () => {
   const testSuite = new TestSuite();
 
