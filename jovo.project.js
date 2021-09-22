@@ -6,7 +6,7 @@ const { ProjectConfig } = require('@jovotech/cli-core');
 |--------------------------------------------------------------------------
 |
 | Information used by the Jovo CLI to build and deploy projects
-| Learn more here: www.jovo.tech/docs/project-config
+| Learn more here: v4.jovo.tech/docs/project-config
 |
 */
 const project = new ProjectConfig({
