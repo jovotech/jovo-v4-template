@@ -12,11 +12,10 @@
 		"eslint": "eslint src test --fix --ext .ts"
 	},
 	"dependencies": {
-		"@jovotech/cli-core": "^4.0.0-beta.1",
-		"@jovotech/db-filedb": "^4.0.0-alpha.18",
-		"@jovotech/framework": "^4.0.0-alpha.18",
-		"@jovotech/plugin-debugger": "^4.0.0-alpha.19",
-		"@jovotech/server-express": "^4.0.0-alpha.18",
+		"@jovotech/db-filedb": "^4.0.0-beta.0",
+		"@jovotech/framework": "^4.0.0-beta.0",
+		"@jovotech/plugin-debugger": "^4.0.0-beta.0",
+		"@jovotech/server-express": "^4.0.0-beta.0",
 		"source-map-support": "^0.5.19"
 	},
 	"devDependencies": {
@@ -25,6 +24,7 @@
 		"@types/socket.io-client": "^1.4.36",
 		"@typescript-eslint/eslint-plugin": "^4.12.0",
 		"@typescript-eslint/parser": "^4.12.0",
+		"@jovotech/cli-core": "^4.0.0-beta.1",
 		"bestzip": "^2.1.7",
 		"esbuild": "^0.12.5",
 		"eslint": "^7.17.0",
