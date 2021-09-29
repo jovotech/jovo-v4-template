@@ -5,7 +5,7 @@ import { YesNoOutput } from '../output/YesNoOutput';
 @Component()
 export class LoveHatePizzaComponent extends BaseComponent {
   START() {
-    return this.$send(YesNoOutput, { message: 'Do you like Pizza?' });
+    return this.$send(YesNoOutput, { message: 'Do you like pizza?' });
   }
 
   @Intents(['YesIntent'])
