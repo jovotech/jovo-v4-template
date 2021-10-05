@@ -10,8 +10,9 @@ import { TestSuite, InputType } from '@jovotech/framework';
 |
 */
 
+const testSuite = new TestSuite();
+
 test('should ask the user if they like pizza', async () => {
-  const testSuite = new TestSuite();
 
   const { output } = await testSuite.run({
     type: InputType.Launch, // or 'LAUNCH'
@@ -24,4 +25,5 @@ test('should ask the user if they like pizza', async () => {
       listen: true,
     },
   ]);
+
 });
