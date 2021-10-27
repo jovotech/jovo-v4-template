@@ -7,7 +7,7 @@
 	"scripts": {
 		"test": "jest",
 		"tsc": "tsc",
-		"start:dev": "tsc-watch --onSuccess \"node ./dist/app.dev.js --jovo-webhook\"",
+		"start:dev": "tsc-watch --onSuccess \"node ./dist/app.dev.js --jovo-webhook\" --noClear",
 		"bundle:dev": "esbuild src/app.dev.ts --bundle --minify --sourcemap --platform=node --outfile=bundle/index.js",
 		"eslint": "eslint src test --fix --ext .ts"
 	},
