@@ -1,6 +1,6 @@
 const { DebuggerConfig } = require('@jovotech/plugin-debugger');
 
-const jovoDebugger = new DebuggerConfig({
+const debuggerConfig = new DebuggerConfig({
   locales: ['en'],
   buttons: [
     {
@@ -10,13 +10,19 @@ const jovoDebugger = new DebuggerConfig({
       },
     },
     {
-      label: 'yes',
+      label: 'Yes',
       input: {
         intent: 'YesIntent',
+      },
+    },
+    {
+      label: 'No',
+      input: {
+        intent: 'NoIntent',
       },
     },
     // ...
   ],
 });
 
-module.exports = jovoDebugger;
+module.exports = debuggerConfig;
