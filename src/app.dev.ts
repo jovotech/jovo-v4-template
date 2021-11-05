@@ -17,7 +17,7 @@ app.configure({
       skipTests: true,
       pathToFile: '../db/db.json',
     }),
-    new JovoDebugger({ skipTests: true }),
+    new JovoDebugger(),
   ],
 });
 
