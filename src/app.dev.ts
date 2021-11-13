@@ -8,7 +8,7 @@ import { JovoDebugger } from '@jovotech/plugin-debugger';
 |--------------------------------------------------------------------------
 |
 | This configuration gets merged into the default app config
-| Learn more here: v4.jovo.tech/docs/staging
+| Learn more here: www.jovo.tech/docs/staging
 |
 */
 app.configure({

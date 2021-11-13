@@ -9,7 +9,7 @@ import { LoveHatePizzaComponent } from './components/LoveHatePizzaComponent';
 |--------------------------------------------------------------------------
 |
 | All relevant components, plugins, and configurations for your Jovo app
-| Learn more here: v4.jovo.tech/docs/app-config
+| Learn more here: www.jovo.tech/docs/app-config
 |
 */
 const app = new App({
@@ -19,7 +19,7 @@ const app = new App({
   |--------------------------------------------------------------------------
   |
   | Components contain the Jovo app logic
-  | Learn more here: v4.jovo.tech/docs/components
+  | Learn more here: www.jovo.tech/docs/components
   |
   */
 
@@ -31,7 +31,7 @@ const app = new App({
   |--------------------------------------------------------------------------
   |
   | Includes platforms, database integrations, third-party plugins, and more
-  | Learn more here: v4.jovo.tech/marketplace
+  | Learn more here: www.jovo.tech/marketplace
   |
   */
 
@@ -45,7 +45,7 @@ const app = new App({
   |--------------------------------------------------------------------------
   |
   | Includes all other configuration options like logging
-  | Learn more here: v4.jovo.tech/docs/app-config
+  | Learn more here: www.jovo.tech/docs/app-config
   |
   */
 
@@ -55,7 +55,7 @@ const app = new App({
     intentMap: {
       'AMAZON.StopIntent': 'END',
     },
-  }
+  },
 });
 
 export { app };
