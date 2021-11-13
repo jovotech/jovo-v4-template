@@ -22,7 +22,6 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/components
   |
   */
-
   components: [GlobalComponent, LoveHatePizzaComponent],
 
   /*
@@ -34,7 +33,6 @@ const app = new App({
   | Learn more here: www.jovo.tech/marketplace
   |
   */
-
   plugins: [
     // Add Jovo plugins here
   ],
@@ -48,7 +46,6 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/app-config
   |
   */
-
   logging: true,
 
   routing: {
