@@ -1,5 +1,6 @@
 {
   "name": "jovo-v4-template",
+  "private": true,
   "version": "4.0.0",
   "description": "Get started with Jovo Framework v4 using this sample TypeScript app.",
   "main": "./dist/index.js",
