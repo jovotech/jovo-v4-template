@@ -16,14 +16,14 @@
     "eslint": "eslint src test --fix --ext .ts"
   },
   "dependencies": {
-    "@jovotech/db-filedb": "^4.0.0-beta.0",
-    "@jovotech/framework": "^4.0.0-beta.0",
-    "@jovotech/plugin-debugger": "^4.0.0-beta.0",
-    "@jovotech/server-express": "^4.0.0-beta.0",
+    "@jovotech/db-filedb": "^4.0.0",
+    "@jovotech/framework": "^4.0.0",
+    "@jovotech/plugin-debugger": "^4.0.0",
+    "@jovotech/server-express": "^4.0.0",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
-    "@jovotech/cli-core": "^4.0.0-beta.1",
+    "@jovotech/cli-core": "^4.0.0",
     "@types/express": "^4.17.11",
     "@types/jest": "^27.0.2",
     "@types/socket.io-client": "^1.4.36",
@@ -47,7 +47,7 @@
   "author": "jovotech",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+    "url": "https://github.com/jovotech/jovo-v4-template/issues"
   },
-  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+  "homepage": "https://github.com/jovotech/jovo-v4-template#readme"
 }
