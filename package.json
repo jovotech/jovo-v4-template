@@ -9,20 +9,22 @@
     "test": "jest",
     "tsc": "tsc",
     "start:dev": "tsc-watch --onSuccess \"node ./dist/app.dev.js --jovo-webhook\" --noClear",
-    "bundle": "esbuild --bundle --outfile=bundle/index.js --sourcemap --minify --keep-names --platform=node --target=node14 --format=cjs  --external:aws-sdk --external:@oclif/* --external:@jovotech/cli*",
+    "bundle": "node ./jovo.build.js",
     "prebundle": "rimraf bundle",
     "postbundle": "cd bundle && bestzip ../bundle.zip * && cd ..",
     "bundle:dev": "npm run bundle -- src/app.dev.ts",
     "eslint": "eslint src test --fix --ext .ts"
   },
   "dependencies": {
-    "@jovotech/db-filedb": "^4.0.0",
-    "@jovotech/framework": "^4.0.0",
-    "@jovotech/plugin-debugger": "^4.0.0",
-    "@jovotech/server-express": "^4.0.0",
-    "source-map-support": "^0.5.19"
+    "@jovotech/db-filedb": "^4.5.0",
+    "@jovotech/framework": "^4.5.0",
+    "@jovotech/plugin-debugger": "^4.5.0",
+    "@jovotech/server-express": "^4.5.0",
+    "source-map-support": "^0.5.19",
+    "tslib": "^2.4.1"
   },
   "devDependencies": {
+    "@anatine/esbuild-decorators": "^0.2.19",
     "@jovotech/cli-core": "^4.0.0",
     "@types/express": "^4.17.11",
     "@types/jest": "^27.0.2",
