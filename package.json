@@ -16,10 +16,10 @@
     "eslint": "eslint src test --fix --ext .ts"
   },
   "dependencies": {
-    "@jovotech/db-filedb": "^4.0.0",
-    "@jovotech/framework": "^4.0.0",
-    "@jovotech/plugin-debugger": "^4.0.0",
-    "@jovotech/server-express": "^4.0.0",
+    "@jovotech/db-filedb": "^4.5.2",
+    "@jovotech/framework": "^4.5.2",
+    "@jovotech/plugin-debugger": "^4.5.2",
+    "@jovotech/server-express": "^4.5.2",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
