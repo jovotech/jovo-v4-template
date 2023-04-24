@@ -1,3 +1,4 @@
+//@ts-check
 const { ProjectConfig } = require('@jovotech/cli-core');
 
 /*
